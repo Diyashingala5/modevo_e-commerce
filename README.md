@@ -1,15 +1,4 @@
-## ⚙️ Environment Variables
 
-Before running the project, create a `.env` file in the root directory with the following content:
-
-```env
-# Database Configuration
-DATABASE_URL=
-
-# Stripe Configuration
-STRIPE_SECRET_KEY=
-VITE_STRIPE_PUBLIC_KEY=
-```
 # Modevo E-Commerce
 
 A modern, full-featured e-commerce platform built with React and Tailwind CSS. Designed for scalability, performance, and a seamless shopping/admin experience.
@@ -31,6 +20,19 @@ A modern, full-featured e-commerce platform built with React and Tailwind CSS. D
 
 - Node.js (v16.x or higher recommended)
 - npm (v7+) or yarn
+
+## ⚙️ Environment Variables
+
+Before running the project, create a `.env` file in the root directory with the following content:
+
+```env
+# Database Configuration
+DATABASE_URL=
+
+# Stripe Configuration
+STRIPE_SECRET_KEY=
+VITE_STRIPE_PUBLIC_KEY=
+```
 
 ## 🛠️ Installation
 
